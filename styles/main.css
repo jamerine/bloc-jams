@@ -10,9 +10,9 @@ html {
 }
 
 body {
-    font-family: 'Open Sans'; 
-    color: white;             
-    min-height: 100%;        
+    font-family: 'Open Sans';
+    color: white;
+    min-height: 100%;
 }
 
 .navbar {
@@ -23,11 +23,11 @@ body {
 }
 
 .navbar .logo {
-    position: relative; 
+    position: relative;
     left: 2rem;
-         cursor: pointer;  
+         cursor: pointer;
  }
- 
+
  .navbar .links-container {
      display: table;
      position: absolute;
@@ -37,7 +37,7 @@ body {
      color: white;
      text-decoration: none;
  }
- 
+
  .links-container .navbar-link {
      display: table-cell;
      position: relative;
@@ -53,9 +53,9 @@ body {
      text-decoration: none;
      cursor: pointer;
  }
- 
+
  .links-container .navbar-link:hover {
-     color: rgb(233,50,117);
+    color: rgb(233,50,117);
  }
 
 .container {
@@ -63,17 +63,21 @@ body {
     max-width: 64rem;
 }
 
+.container.narrow {
+    max-width: 56rem;
+}
+
 
 /* Medium and small screens */
 @media (min-width: 640px) {
     html { font-size: 112%; }
-    
+
     .column {
         float: left;
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    
+
     .column.full { width: 100%; }
     .column.two-thirds { width: 66.7%; }
     .column.half { width: 50%; }
