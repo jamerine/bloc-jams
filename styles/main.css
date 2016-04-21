@@ -25,38 +25,38 @@ body {
 .navbar .logo {
     position: relative; 
     left: 2rem;
-    cursor: pointer;
-}
-
-.navbar .links-container {
-    display: table;
-    position: absolute;
-    top:0;
-    right: 0;
-    height: 100px;
-    color: white;
-    text-decoration: none;
-}
-
-.links-container .navbar-link {
-    display:table-cell;
-    position: relative;
-    height: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    vertical-align: middle;
-    color: white;
-    font-size: 0.625rem;
-    letter-spacing: 0.05rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.links-container .navbar-link:hover {
-    color: rgb(233,50,117);
-}
+         cursor: pointer;  
+ }
+ 
+ .navbar .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100px;
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .links-container .navbar-link {
+     display: table-cell;
+     position: relative;
+     height: 100%;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     vertical-align: middle;
+     color: white;
+     font-size: 0.625rem;
+     letter-spacing: 0.05rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+ .links-container .navbar-link:hover {
+     color: rgb(233,50,117);
+ }
 
 .container {
     margin: 0 auto;
@@ -78,7 +78,7 @@ body {
     .column.two-thirds { width: 66.7%; }
     .column.half { width: 50%; }
     .column.third { width: 33.3%; }
-    .column.forth { width: 25%; }
+    .column.fourth { width: 25%; }
     .column.flow-opposite { float: right; }
 }
 
