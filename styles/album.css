@@ -39,6 +39,7 @@ body.album {
      margin: 1.5rem auto;
      font-weight: 300;
      font-size: 0.75em;
+     border-collapse: collapse;
  }
 
  .album-view-song-item {
@@ -75,4 +76,8 @@ body.album {
          width: 80%;
          margin: auto;
      }
+
+ }
+ td, th {
+   padding: 0.2em;
  }
