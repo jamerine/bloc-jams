@@ -40,21 +40,20 @@ var createSongRow = function(songNumber, songName, songLength) {
     return template;
 };
 
-// var createAlbumDetails = function(album) {
-//     var template2 =
-//         '<h2 class="album-view-title">' + album.title'</h2>'
-//       + '  <h3 class="album-view-artist">' + album.artist + '</h3>'
-//       + '  <h5 class="album-view-release-info">' + album.year + ' ' + album.label '</h5>'
-//       ;
-//       return template2;
-// };
+ var createAlbumDetails = function(album) {
+     var template =
+         '<h2 class="album-view-title">' + album.title + '</h2>'
+       + '  <h3 class="album-view-artist">' + album.artist + '</h3>'
+       + '  <h5 class="album-view-release-info">' + album.year + ' ' + album.label + '</h5>'
+       ;
+       return template;
+ };
 
 
 var setCurrentAlbum = function(album) {
 
-    // var albumViewDetails = document.getElementsByClassName('album-view-details')[0];
-    // albumViewDetails.innerHTML = '';
-    // albumViewDetails.innerHtml += createAlbumDetails(album)
+    var albumViewDetails = document.getElementsByClassName('album-view-details')[0];
+    albumViewDetails.innerHTML = createAlbumDetails(album);
 
     var albumTitle = document.getElementsByClassName('album-view-title')[0];
     var albumArtist = document.getElementsByClassName('album-view-artist')[0];
